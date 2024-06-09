@@ -1,0 +1,40 @@
+
+.head{
+    display: grid;
+    grid-template-areas: "nav nav1";
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar{
+    display: flex;
+    font: 1em sans-serif;
+    font-weight: 700;
+    gap: 20px;
+
+}
+a{
+    direction: none;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    font: 1em sans-serif;
+    font-weight: 700;
+}
+button{
+    padding: 13px;
+    background-color: rgb(254, 254, 254);
+    
+    width: 90px;
+    border: none;
+    box-shadow: 3px black;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}
+li{
+    list-style: none;
+}

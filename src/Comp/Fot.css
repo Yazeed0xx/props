@@ -1,0 +1,18 @@
+*{
+    font: 1em sans-serif;
+    font-weight: 700;
+}
+.fot{
+    display: flex;
+    background-color: #fafafa;
+    justify-content: space-around;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+}
